@@ -21,16 +21,19 @@ const WelcomeMark = () => {
             Welcome back,
           </VuiTypography>
           <VuiTypography color="white" variant="h3" fontWeight="bold" mb="18px">
-            Mark Johnson
+            Leonardo Leoni
           </VuiTypography>
           <VuiTypography color="text" variant="h6" fontWeight="regular" mb="auto">
             Glad to see you again!
-            <br /> Ask me anything.
+            <br /> That's how the market is going.
           </VuiTypography>
         </VuiBox>
         <VuiTypography
           component="a"
           href="#"
+          // href="https://www.google.com"
+          // target="_blank"  // Aggiungi questa linea
+          rel="noopener noreferrer" // Buona pratica per sicurezza e performance
           variant="button"
           color="white"
           fontWeight="regular"
@@ -54,6 +57,7 @@ const WelcomeMark = () => {
           Tap to record
           <Icon sx={{ fontWeight: "bold", ml: "5px" }}>arrow_forward</Icon>
         </VuiTypography>
+
       </VuiBox>
     </Card>
   );
